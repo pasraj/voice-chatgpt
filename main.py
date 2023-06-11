@@ -7,7 +7,7 @@ r = sr.Recognizer()
 
 
 def chat_with_gpt(prompt):
-    openai.api_key = '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'  # Replace with your OpenAI API key
+    openai.api_key = 'API-KEY'  # Replace with your OpenAI API key
 
     response = openai.Completion.create(
         engine='text-davinci-003',
